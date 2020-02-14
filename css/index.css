@@ -29,7 +29,10 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    margin: 0 15% 15% 15%;
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
 }
 ol, ul {
 	list-style: none;
@@ -143,4 +146,85 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+section .navlinks{
+	display: flex;
+    position: fixed;
+	background-color: white;
+	width: 56%;
+	height: 95px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding-left: 266px;
+}
+
+.headernav {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.jumbo {
+    display: flex;
+	margin-top: 5%;
+	justify-content: center;
+	width: 100%;
+}
+
+.jumboimg {
+    width: 60%;
+	margin-bottom: 25px;
+}
+
+.headernav a {
+	color: black;
+	text-decoration: none;
+	border: none;
+	display: flex;
+	
+}
+
+#b1{background-color: teal;}
+#b2{background-color:gold; }
+#b3{background-color:cadetblue;}
+#b4{background-color:coral;}
+#b5{background-color:crimson;}
+#b6{background-color:forestgreen;}
+#b7{background-color:darkorchid;}
+#b8{background-color:hotpink;}
+#b9{background-color:indigo;}
+#b10{background-color:dodgerblue;}
+
+.topsection{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.strategywork {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.work {
+    display: flex;
+    flex-direction: column;
+}
+
+.placescollab {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.collab {
+    display: flex;
+    flex-direction: column;
 }
