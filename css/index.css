@@ -21,15 +21,18 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
+    margin: 0 15% 15% 15%;
+    
 }
 ol, ul {
 	list-style: none;
@@ -144,3 +147,122 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+section .navlinks{
+	display: flex;
+    position: fixed;
+	background-color: white;
+	width: 56.1%;
+	height: 95px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding-left: 267px;
+}
+
+.headernav {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.jumbo {
+    display: flex;
+	margin-top: 5%;
+	justify-content: center;
+	width: 100%;
+}
+
+.jumboimg {
+    width: 60%;
+	margin-bottom: 25px;
+}
+
+.headernav a {
+	color: black;
+	text-decoration: none;
+	border: none;
+	display: flex;
+	
+}
+
+#b1{background-color: teal;}
+#b2{background-color:gold; }
+#b3{background-color:cadetblue;}
+#b4{background-color:coral;}
+#b5{background-color:crimson;}
+#b6{background-color:forestgreen;}
+#b7{background-color:darkorchid;}
+#b8{background-color:hotpink;}
+#b9{background-color:indigo;}
+#b10{background-color:dodgerblue;}
+
+.topsection{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.strategywork {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.work {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    border-bottom: 1px dashed black;
+}
+
+.placescollab {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.collab {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+    margin-left: 50px;
+}
+
+
+.places{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+}
+
+.strategy {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+}
+
+button {
+    display: flex;
+    margin-bottom: 5px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    width: 30%;
+    padding: 10px 18px;
+    border-radius: 10px;
+    -webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+	cursor: pointer;
+}
+
+.worktogether {
+    margin-bottom: 20px;
+}
+

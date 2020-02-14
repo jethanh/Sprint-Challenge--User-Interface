@@ -1,0 +1,9 @@
+If you were to describe semantic HTML to the next cohort of students, what would you say? Semantic HTML is giving more meaning to your HTML markup. For example, using <section> instead of <div>. It is beneficial for SEO and accessibility.
+
+Name two big differences between display: block; and display: inline; inline: block allows you to set a width and height on elements. display: inline top and bottom margins/padding are not respected. Inline elements also cause linebreaks whereas block elements do not.
+
+What are the 4 areas of the box model? content, padding, border, margin
+
+While using flexbox, what axis does the following property work on: align-items: center?. If it is in a row, it works on the Y axis. If it is in a column, it works on the x axis. 
+
+Explain why git is valuable to a team of developers. Git is a version control system which allows developers to work on the same project simultaneously without overwriting eachothers work and maintaining copies of their versions.
